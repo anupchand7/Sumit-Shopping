@@ -1,0 +1,450 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100%;
+    border-bottom: 3px solid #f7dfe3;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 30%;
+    height: 90%;
+    /* border: 2px solid black; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left>a>img {
+    height: 100%;
+    min-width: auto;
+}
+
+.right {
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right>nav {
+    /* border: 2px solid; */
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.right>nav>li>a {
+    /* border: 2px solid; */
+    text-decoration: none;
+    color: black;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.right>nav>li>a:hover {
+    /* padding-top: 5px; */
+    color: #c0072c;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.25);
+}
+
+.user {
+    height: 35px;
+}
+/* About us code */
+
+.topbox {
+    /* border: 2px solid; */
+    height: auto;
+    /* background-color: rgb(255, 255, 255); */
+}
+
+.combo {
+    padding: 20px;
+    /* border: 2px solid; */
+    display: flow-root;
+}
+
+.we {
+    float: left;
+    width: 40%;
+    border-radius: 10px;
+    /* padding-right: 20px; */
+    margin-bottom: 20px;
+}
+.us{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(8, 8, 8);
+    padding-left: 20px;
+}
+.us h2 {
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 3rem;
+    color: rgb(212, 11, 11);
+
+}
+.intro{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: rgb(158, 137, 20);
+}
+.descripition{
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+
+}
+.us2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 20px;
+}
+.we2 {
+    border-radius: 5px;
+    width: 40%;
+    float: right;
+    padding-right: 20px;
+    margin-left: 20px;
+}
+
+.collection{
+    /* border: 2px solid; */
+    height: auto;
+
+}
+.frame{
+    /* border: 2px solid; */
+    /* height: 60vh; */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+}
+.frame > div{
+    /* border: 2px solid; */
+    /* padding: 5px; */
+    height: 80%;
+}
+.frame > div > img{
+   width: 500px;
+}
+.frame > div:nth-child(1) img{
+    /* border: 2px solid; */
+    width: 550px;
+}
+.frame > div:nth-child(2) img{
+    /* border: 2px solid; */
+    width: 550px;
+}
+.frame > div:nth-child(3) img{
+    /* border: 2px solid; */
+    width: 450px;
+}
+.frame > div:nth-child(4) img{
+    /* border: 2px solid; */
+    width: 400px;
+}
+.frame > div:nth-child(5) img{
+    /* border: 2px solid; */
+    width: 300px;
+}
+.frame > div:nth-child(6) img{
+    /* border: 2px solid; */
+    width: 350px;
+}
+.collection > h1{
+    /* border: 2px solid; */
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: xx-large;
+    color: purple;
+}
+
+.dealers{
+    background-color: #fff9fa;
+    padding: 20px;
+
+}
+.dealers h2 {
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    color: rgb(212, 11, 11);
+    text-align: center;
+
+}
+.textarea{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.intro2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    font-family: "Inter", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: 600;
+    color: rgb(0, 0, 0);
+}
+.descripition2{
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 20px;
+}
+.dealerlogos{
+    /* border: 2px solid; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.row1{
+    align-items: right;
+    /* border: 2px solid; */
+    display: flex;
+    justify-content: center;
+}
+.row2{
+    /* border: 1px solid; */
+    /* height: 180px; */
+    width: 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.row3{
+    /* border: 1px solid; */
+    /* height: 180px; */
+    width: 70%;
+    display: flex;
+    justify-content: space-around;
+}
+.enhance{
+    text-decoration: none;
+    color: rgb(167, 6, 6);
+}
+.enhance:hover{
+    transition: all 1s ease-in;
+    transform: translateX(50px);
+}
+
+/* ABOUT US CODE ENDS */
+
+/* Downnavbar Code  */
+
+.downnavbar {
+    /* background-color: #b4b1b159; */
+    background-color: #FFF8F9;
+    margin-top: auto;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(177, 105, 105);
+    border-bottom: 2px solid rgb(177, 105, 105);
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmediaslogo {
+    /* border: 2px solid; */
+    position: absolute;
+    right: 0;
+    top: -14%;
+}
+
+.socialmediaslogo> a > img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.lowleft {
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5px 5px;
+}
+
+.firstone {
+    /* border: 2px solid; */
+    height: 30%;
+}
+
+.lowleft>div>a>img {
+    /* border: 2px solid; */
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.slogan {
+    /* border: 2px solid; */
+    height: 10%;
+    /* width: 60%; */
+    font-weight: 800;
+    font-family: 'Diphylleia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: purple;
+}
+
+.information {
+    /* border: 2px solid; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    /* padding: 10px; */
+}
+
+.same {
+    /* border: 2px solid; */
+    display: flex;
+    height: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.same>a {
+    /* border: 2px solid; */
+    display: flex;
+    /* width: 55%; */
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.same>a:hover {
+    color: rgb(153, 69, 69);
+    text-decoration: underline;
+}
+
+.gaping {
+    margin-left: 10px;
+}
+
+.lowright {
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.lowest {
+    box-sizing: border-box;
+    /* border: 3px solid; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.lowest>.box {
+    /* border: 2px solid rgb(99, 41, 41); */
+    box-sizing: border-box;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lowest>.box21 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid rgb(99, 41, 41); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quickhead {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a8102e;
+}
+
+.quicklinks {
+    /* border: 2px solid; */
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.quicklinks:hover {
+    padding-top: 5px;
+    color: #DE1B41;
+    font-size: x-large;
+    transition: all .15s ease-in;
+    transform: translateX(65px);
+
+}
+
+footer {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2e3a58;
+    color: white;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}

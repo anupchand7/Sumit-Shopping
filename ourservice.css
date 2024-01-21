@@ -1,0 +1,748 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    height: 100%;
+}
+
+body {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.navbar {
+    box-sizing: border-box;
+    height: 10vh;
+    width: 100%;
+    border-bottom: 3px solid #f7dfe3;
+    padding: 3px 3px 3px 3px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.left {
+    width: 30%;
+    height: 90%;
+    /* border: 2px solid black; */
+    object-fit: contain;
+    display: flex;
+    justify-content: center;
+    /* align-items: center; */
+}
+
+.left>a>img {
+    height: 100%;
+    min-width: auto;
+}
+
+.right {
+    /* border: 2px solid red; */
+    width: 65%;
+    height: 90%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.right>nav {
+    /* border: 2px solid; */
+    height: 100%;
+    width: 100%;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    position: relative;
+}
+
+.right>nav>li>a {
+    /* border: 2px solid; */
+    text-decoration: none;
+    color: black;
+    position: relative;
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: larger;
+    font-weight: 600;
+}
+
+.right>nav>li>a:hover {
+    /* padding-top: 5px; */
+    color: #c0072c;
+    font-weight: bold;
+    font-size: 20px;
+    transition: all .2s ease-in-out;
+    transform: scale(1.25);
+}
+
+.user {
+    height: 35px;
+}
+
+/* our services start */
+
+.ourservices {
+    width: 100%;
+    /* background-color: hsl(350, 67%, 96%); */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    row-gap: 15px;
+}
+
+.heading {
+    margin-top: 20px;
+    text-align: center;
+    /* border: 2px solid; */
+    color: rgb(185, 1, 1);
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+.mid {
+    text-align: center;
+    font-family: 'Roboto Condensed', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 900;
+    /* font-style: italic; */
+}
+
+.paragra {
+    color: rgb(56, 56, 56);
+    width: 90%;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: left;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.p2 {
+    text-align: left;
+}
+
+.row{
+    /* border: 2px solid black; */
+    width: 95%;
+    height: 55vh;
+    display: flex;
+    flex-wrap: wrap;
+    padding: 30px;
+    justify-content: space-around;
+    align-items: center;
+    box-sizing: border-box;
+}
+.frame{
+    /* border: 2px solid yellowgreen; */
+    border-radius: 20px;
+    height: 100%;
+    width: 20.66%;
+    position: relative;
+    display: flex;
+    transition: all 0.3s ease-in-out;
+    object-fit: contain;
+    /* overflow: hidden; */
+}
+.frame:hover{
+    transform: scale(1.1);
+}
+.redlogo{
+    position: absolute;
+    width: 80px;
+    top: -5%;
+    left: -8%;
+}
+.framee{
+    /* position: relative; */
+    border: 2px solid rgb(66, 50, 205);
+    border-radius: 20px;
+    height: 100%;
+    width: 100%;
+    font-size: larger;
+    /* display: hidden; */
+    opacity: 0;
+}
+hr{
+    width: 90%;
+    border: 2px solid rgb(190, 190, 190);
+    
+}
+h1{
+    background: -webkit-linear-gradient(#a51f1a, #461a8d);
+     background-clip: text;
+    -webkit-text-fill-color: transparent;
+    text-align: center;
+    font-family: 'Diphylleia' , 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    /* border: 2px solid; */
+    width: 20%;
+}
+    /* Women Section  */
+
+.frame1{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women1.webp);
+    background-size: cover;
+}
+.frame1:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women1c.webp);
+    background-size: cover;
+}
+.frame2{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women2.webp);
+    background-size: cover;
+}
+.frame2:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women2b.webp);
+    background-size: cover;
+}
+.frame3{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women3.webp);
+    background-size: cover;
+}
+.frame3:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women3b.webp);
+    background-size: cover;
+}
+.frame4{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women4.webp);
+    background-size: cover;
+}
+.frame4:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women4b.webp);
+    background-size: cover;
+}
+.frame5{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women5.webp);
+    background-size: cover;
+}
+.frame5:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women5b.webp);
+    background-size: cover;
+}
+.frame6{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women6.webp);
+    background-size: cover;
+}
+.frame6:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women6b.webp);
+    background-size: cover;
+}
+.frame7{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures//women7.webp);
+    background-size: cover;
+}
+.frame7:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women7b.webp);
+    background-size: cover;
+}
+.frame8{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/women8.webp);
+    background-size: cover;
+}
+.frame8:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/women8b.webp);
+    background-size: cover;
+}
+
+    /* Men's Section */
+
+.frame9{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men1.webp);
+    background-size: cover;
+}
+.frame9:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men1b.webp);
+    background-size: cover;
+}
+.frame10{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men2.webp);
+    background-size: cover;
+}
+.frame10:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men2b.webp);
+    background-size: cover;
+}
+.frame11{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men3.webp);
+    background-size: cover;
+}
+.frame11:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men3b.webp);
+    background-size: cover;
+}
+.frame12{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men4.webp);
+    background-size: cover;
+}
+.frame12:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men4b.webp);
+    background-size: cover;
+}
+.frame13{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men5.webp);
+    background-size: cover;
+}
+.frame13:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men5b.webp);
+    background-size: cover;
+}
+.frame14{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men6.webp);
+    background-size: cover;
+}
+.frame14:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men6b.webp);
+    background-size: cover;
+}
+.frame15{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men7.webp);
+    background-size: cover;
+}
+.frame15:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men7b.webp);
+    background-size: cover;
+}
+.frame16{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/men8.webp);
+    background-size: cover;
+}
+.frame16:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/men8b.webp);
+    background-size: cover;
+}
+
+
+    /* Kid's Section  */
+
+.frame17{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid1.webp);
+    background-size: cover;
+}
+.frame17:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid1b.webp);
+    background-size: cover;
+}
+.frame18{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid2.webp);
+    background-size: cover;
+}
+.frame18:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid2b.webp);
+    background-size: cover;
+}
+.frame19{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid3.webp);
+    background-size: cover;
+}
+.frame19:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid3b.webp);
+    background-size: cover;
+}
+.frame20{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid4.webp);
+    background-size: cover;
+}
+.frame20:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid4b.webp);
+    background-size: cover;
+}
+.frame21{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid5.webp);
+    background-size: cover;
+}
+.frame21:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid5b.webp);
+    background-size: cover;
+}
+.frame22{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid6.webp);
+    background-size: cover;
+}
+.frame22:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid6b.webp);
+    background-size: cover;
+}
+.frame23{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid7.webp);
+    background-size: cover;
+}
+.frame23:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid7b.webp);
+    background-size: cover;
+}
+.frame24{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/kid8.webp);
+    background-size: cover;
+}
+.frame24:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/kid8b.webp);
+    background-size: cover;
+}
+
+    /* Traditional Section  */
+
+.frame25{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures//trade1.webp);
+    background-size: cover;
+}
+.frame25:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/trade1bg.webp);
+    background-size: cover;
+}
+.frame26{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade2.webp);
+    background-size: cover;
+}
+.frame26:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-image: url(assets/pictures/trade2bg.webp);
+    background-size: cover;
+}
+.frame27{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade3.webp);
+    background-size: cover;
+}
+.frame27:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade3bg.webp);
+    background-size: cover;
+}
+.frame28{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade4.webp);
+    background-size: cover;
+}
+.frame28:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade4bg.webp);
+    background-size: cover;
+}
+.frame29{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade5.webp);
+    background-size: cover;
+}
+.frame29:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade5bg.webp);
+    background-size: cover;
+}
+.frame30{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade6.webp);
+    background-size: cover;
+}
+.frame30:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade6bg.webp);
+    background-size: cover;
+}
+.frame31{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade7.webp);
+    background-size: cover;
+}
+.frame31:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade7bg.webp);
+    background-size: cover;
+}
+.frame32{
+    /* border: 2px solid; */
+    background-image: url(assets/pictures/trade8.webp);
+    background-size: cover;
+}
+.frame32:hover{
+    
+    border: 2px solid rgb(172, 69, 69);
+    background-color: #fff;
+    background-image: url(assets/pictures/trade8bg.webp);
+    background-size: cover;
+}
+
+.thankyou{
+
+    /* border: 2px solid; */
+    padding: 20px;
+    width: 90%;
+    font-size: x-large;
+    font-family: 'Poppins', serif;
+    text-align: center;
+}
+/* our services end  */
+
+/* Downnavbar Code  */
+
+.downnavbar {
+    /* background-color: #b4b1b159; */
+    background-color: #FFF8F9;
+    margin-top: auto;
+    box-sizing: border-box;
+    border-top: 2px solid rgb(177, 105, 105);
+    border-bottom: 2px solid rgb(177, 105, 105);
+    width: 100%;
+    height: 35vh;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.socialmediaslogo {
+    /* border: 2px solid; */
+    position: absolute;
+    right: 0;
+    top: -14%;
+}
+
+.socialmediaslogo> a > img {
+    width: 80px;
+    margin-right: 10px;
+}
+
+.lowleft {
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    /* align-items: center; */
+    padding: 5px 5px;
+}
+
+.firstone {
+    /* border: 2px solid; */
+    height: 30%;
+}
+
+.lowleft>div>a>img {
+    /* border: 2px solid; */
+    height: 100%;
+    box-sizing: border-box;
+}
+
+.slogan {
+    /* border: 2px solid; */
+    height: 10%;
+    /* width: 60%; */
+    font-weight: 800;
+    font-family: 'Diphylleia', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    color: purple;
+}
+
+.information {
+    /* border: 2px solid; */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 100%;
+    /* padding: 10px; */
+}
+.gaping{
+    margin-left: 15px;
+}
+.same {
+    /* border: 2px solid; */
+    display: flex;
+    height: 30%;
+    justify-content: flex-start;
+    align-items: center;
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: 600;
+    font-size: large;
+}
+
+.same>a {
+    /* border: 2px solid; */
+    display: flex;
+    /* width: 55%; */
+    justify-content: space-between;
+    align-items: center;
+    color: black;
+    text-decoration: none;
+}
+
+.same>a:hover {
+    color: rgb(153, 69, 69);
+    text-decoration: underline;
+}
+
+.gaping {
+    margin-left: 10px;
+}
+
+.lowright {
+    box-sizing: border-box;
+    /* border: 2px solid; */
+    height: 100%;
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+}
+
+.lowest {
+    box-sizing: border-box;
+    /* border: 3px solid; */
+    height: 80%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+}
+
+.lowest>.box {
+    /* border: 2px solid rgb(99, 41, 41); */
+    box-sizing: border-box;
+    width: 100%;
+    height: 90%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.lowest>.box21 {
+    box-sizing: border-box;
+    width: 100%;
+    height: 80%;
+    /* border: 2px solid rgb(99, 41, 41); */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.quickhead {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #a8102e;
+}
+
+.quicklinks {
+    /* border: 2px solid; */
+    color: black;
+    text-decoration: none;
+    font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: large;
+    font-weight: 600;
+}
+
+.quicklinks:hover {
+    padding-top: 5px;
+    color: #DE1B41;
+    font-size: x-large;
+    transition: all .15s ease-in;
+    transform: translateX(65px);
+
+}
+
+footer {
+    font-family: 'Poppins', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #2e3a58;
+    color: white;
+    height: 4vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
