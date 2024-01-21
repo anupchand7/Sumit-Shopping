@@ -139,6 +139,7 @@ form {
 }
 
 .fhead {
+    margin-top: 10px;
     /* border: 2px solid ; */
     width: 80%;
     text-align:center ;
