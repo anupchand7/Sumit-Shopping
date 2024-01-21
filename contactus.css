@@ -122,7 +122,6 @@ body {
 }
 
 form {
-
     font-size: larger;
 }
 
@@ -139,7 +138,7 @@ form {
 }
 
 .fhead {
-    margin-top: 10px;
+    /* margin-top: 10px; */
     /* border: 2px solid ; */
     width: 80%;
     text-align:center ;
@@ -230,9 +229,12 @@ button:active {
     margin-left: 20px;
     color: rgb(0, 0, 0);
     font-size: larger;
+    
     font-family: 'Inter', 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
+.rightmid > label {
+    font-weight: 600;
+}
 .boxleft {
     /* border:  2px solid; */
     width: 100%;
