@@ -95,17 +95,19 @@ body {
 }
 
 .combo {
+    display: flex;
     padding: 20px;
-    /* border: 2px solid; */
+    border: 2px solid;
     display: flow-root;
+    height: 65vh;
 }
 
 .we {
     float: left;
-    width: 40%;
+    height: 90%;
     border-radius: 10px;
     /* padding-right: 20px; */
-    margin-bottom: 20px;
+    margin-bottom: 50px;
 }
 .us{
     display: flex;

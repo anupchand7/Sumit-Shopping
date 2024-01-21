@@ -91,7 +91,7 @@ body {
 
 .ContactUS {
     /* border: 2px solid; */
-    background-image: url(/assets/people-working-call-center.jpg);
+    background-image: url(assets/callcenter.jpg);
     height: 90vh;
     background-repeat: no-repeat;
     background-position: right center;
