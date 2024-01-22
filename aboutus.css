@@ -29,7 +29,7 @@ body {
     /* border: 2px solid black; */
     object-fit: contain;
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     /* align-items: center; */
 }
 
@@ -96,7 +96,7 @@ body {
 
 .combo {
     box-sizing: border-box;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flow-root;
     padding: 15px;
 }
@@ -109,7 +109,7 @@ body {
 }
 .combo2 {
     box-sizing: border-box;
-    border: 2px solid;
+    /* border: 2px solid; */
     display: flow-root;
     padding: 15px;
 }
